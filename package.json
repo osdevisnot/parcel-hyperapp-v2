@@ -1,8 +1,20 @@
 {
   "name": "parcel-hyperapp-v2",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Hyperapp V2 started based on parcel.js",
+  "keywords": [
+    "hyperapp",
+    "parcel"
+  ],
   "license": "MIT",
+  "main": "src/index.html",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html --open"
+  },
+  "dependencies": {
+    "hyperapp": "github:jorgebucaran/hyperapp#V2"
+  },
   "devDependencies": {
     "parcel-bundler": "1.10.1"
   }
